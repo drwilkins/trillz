@@ -1,6 +1,8 @@
 require(pacman)
 p_load(tidyverse,nlme,rsample,ggrepel)
 
+#This is emily's branch
+
 mountData<-read.csv("data/mount_color+ts.csv")
 trialData<-read.csv("data/TrialDataRebooted2020.csv")
 names(trialData)
